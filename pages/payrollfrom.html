@@ -34,26 +34,55 @@
                     <label class="level text" for="profile">Profile Image</label>
                     <div class="profile-radio-content">
                         <label>
-                            <input type="radio"id="profile1" name="profile" value="../assests/profile-images/Ellipse -1.png">
+                            <input type="radio"id="profile1" name="profile" value="../assests/profile-images/Ellipse -1.png"required>
                             <img class="profile" id="image1" src="../assests/profile-images/Ellipse -1.png">
                         </label>
                         <label>
-                            <input type="radio"id="profile2" name="profile" value="../assests/profile-images/Ellipse -2.png">
+                            <input type="radio"id="profile2" name="profile" value="../assests/profile-images/Ellipse -2.png" required>
                             <img class="profile" id="image2" src="../assests/profile-images/Ellipse -2.png">
                         </label>
                         <label>
-                            <input type="radio"id="profile3" name="profile" value="../assests/profile-images/Ellipse -3.png">
+                            <input type="radio"id="profile3" name="profile" value="../assests/profile-images/Ellipse -3.png"required>
                             <img class="profile" id="image3" src="../assests/profile-images/Ellipse -3.png">
                         </label>
                         <label>
-                            <input type="radio"id="profile4" name="profile" value="../assests/profile-images/Ellipse -4.png">
+                            <input type="radio"id="profile4" name="profile" value="../assests/profile-images/Ellipse -4.png"required>
                             <img class="profile" id="image4" src="../assests/profile-images/Ellipse -4.png">
                         </label>
                         <label>
-                            <input type="radio"id="profile5" name="profile" value="../assests/profile-images/Ellipse -5.png">
+                            <input type="radio"id="profile5" name="profile" value="../assests/profile-images/Ellipse -5.png"required>
                             <img class="profile" id="image5" src="../assests/profile-images/Ellipse -5.png">
                         </label>
                     </div>
+                </div>
+                <div class="row-content">
+                    <label class="level text" for="gender">Gender</label> 
+                    <div>
+                        <input type="radio"id="male" name="gender" value="male">
+                        <level class="text" for="male">Male</level>
+                        <input type="radio"id="female" name="gender" value="female">
+                        <level class="text" for="female">Female</level>
+                    </div>
+                </div>
+                <div class="row-content">
+                    <label class="level text" for="department">Department</label>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                        <label class="text" for="hr">HR</label>
+                        <input class="checkbox" type="checkbox" id="sales" name="sales" value="SALES">
+                        <label class="text" for="sales">SALES</label>
+                        <input class="checkbox" type="checkbox" id="finance" name="finance" value="FINANCE">
+                        <label class="text" for="finance">FINANCE</label>
+                        <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="ENGINEER">
+                        <label class="text" for="engineer">ENGINEER</label>
+                        <input class="checkbox" type="checkbox" id="others" name="others" value="OTHERS">
+                        <label class="text" for="others">OTHERS</label>
+                    </div>
+                </div>
+                <div class="row-content">
+                    <label class="level text" for="salary">Choose your salary</label>
+                    <input class="input" type="range" id="salary" name="salary" min="300000" max="500000" step="100" value="400000">
+                    <output class="salary-output text" for="salary">400000</output>
                 </div>
              </form>
         </div>

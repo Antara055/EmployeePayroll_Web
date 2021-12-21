@@ -160,9 +160,22 @@ select {
     margin-right: 30px;
 }
 
+.submitButton:hover {
+    background: green;
+    color: #faf9f9e3;
+    font-weight: 300;
+    border: 2px solid green;
+}
 .cancelButton {
     text-decoration: none;
     text-align: center;
+}
+
+.cancelButton:hover {
+    background: red;
+    color: #faf9f9e3;
+    font-weight: 300;
+    border: 2px solid red;
 }
 
 .resetButton {
@@ -170,6 +183,14 @@ select {
     background-color: #f5f5f5;
     margin-right: 30px;
 }
+
+.resetButton:hover {
+    background: #0000008e;
+    color: #faf9f9e3;
+    font-weight: 300;
+    border: 2px solid #e4e4e4;
+}
+
 
 @media only screen and (max-width: 960px) {
     .cancelButton {
